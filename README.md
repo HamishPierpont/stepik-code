@@ -1,7 +1,9 @@
 # Stepik code
 
 This repository contains a generic template, written in Python,
-for the backend of Stepik problems.
+for the backend of Stepik problems. It also contains a .step file
+that can be uploaded directly to Stepik and edited, which streamlines
+the process of adding a new coding problem to Stepik.
 
 ## Installation
 
