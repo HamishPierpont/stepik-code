@@ -9,6 +9,11 @@ Clone this repository locally. Consider making a copy of the `stepik_backend.py`
 file and putting your work in there; this ensures a clean copy of the template
 is maintained.
 
+## Usage
+
+Please take a look at this [Google doc](https://docs.google.com/document/d/14o13L9Mvg-zMp1JQFzt08TIAi8gjIu3vpgOWPpe68XE/edit#heading=h.8k3ipcbozllc)
+for a detailed usage guide.
+
 ## Contribution
 
 Please feel free to update the template with improvements as necessary.
