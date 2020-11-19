@@ -21,6 +21,6 @@ for a detailed usage guide.
 Please feel free to update the template with improvements as necessary.
 Avoid committing specific implementations of the backend to this repository
 (e.g., a copy of the template filled out with tests and correct answers for
-problem *8.1.2* in the course Stepik page); this repository is meant to keep
+problem **8.1.2** in the course Stepik page); this repository is meant to keep
 track of changes to the template, not changes to the backend for individual
 problems.
