@@ -3,6 +3,7 @@ Stepik backend for COP3530 at the University of Florida
 Written by Ori Leibovici and Hamish Pierpont
 """
 
+
 def generate():
     
     def create_feedback(input):
@@ -49,4 +50,5 @@ def check(reply, clue):
             return True, compliments[len(reply) % 5]
         else:
             return False, clue[0]
+
 
