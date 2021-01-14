@@ -13,9 +13,6 @@ is maintained.
 
 ## Usage
 
-Please take a look at this [Google doc](https://docs.google.com/document/d/14o13L9Mvg-zMp1JQFzt08TIAi8gjIu3vpgOWPpe68XE/edit#heading=h.8k3ipcbozllc)
-for a detailed usage guide.
-
 Download template and sample .step file from GitHub.
 Users familiar with git should clone their repository to their local machine using git clone or the
 GitHub CLI. Downloading the files as a .zip archive is also okay.
