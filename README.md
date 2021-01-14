@@ -82,7 +82,7 @@ stepik_backend.py file comes from orchestrating this display).
 5. Create desired test case inputs and outputs on your own, outside of stepik. You can test them out
    in stepik if you would like as well.
 6. Click “Test Cases”. Place the first test case input and output here. Do not add others here, only
-   have the first. 
+   have the first [<sup id="footnote-id">1</sup>](#fn1). 
 7. Click “Languages and Templates”.
    * “::c++” means that the code solution can be in c++, if we were to add “::python3” below it, solutions in python would also be accepted. But just “::c++” will do; just use that one assuming the class will be in cpp.
    * Hidden templates can be useful to define auxiliary functions and data input/output, to prevent the usage of certain functions/libraries, and to perform additional checks on student's code.
@@ -112,3 +112,6 @@ Avoid committing specific implementations of the backend to this repository
 problem **8.1.2** in the course Stepik page); this repository is meant to keep
 track of changes to the template, not changes to the backend for individual
 problems.
+
+### Footnotes
+1. <span id="fn1"></span> [_consectetur adipiscing elit_](#footnote-id). Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
