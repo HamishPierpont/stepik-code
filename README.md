@@ -114,4 +114,4 @@ track of changes to the template, not changes to the backend for individual
 problems.
 
 ### Footnotes
-1. <span id="fn1"></span> [.](#footnote-id). Stepik breaks if the first test case isn’t in the frontend. We tried to get Stepik to fix this, but they don’t seem to care about instructor experience.
+1. <span id="fn1"></span> [](#footnote-id) Stepik breaks if the first test case isn’t in the frontend. We tried to get Stepik to fix this, but they don’t seem to care about instructor experience.
