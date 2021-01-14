@@ -24,7 +24,7 @@ Inside this git repository is the python backend code and a sample .step file.
 The .step file has the backend code as one of its fields, so you shouldn’t need to directly edit the
 backend file. Uploading the .step file to stepik and editing there should be sufficient.
 
-#### How is Stepik structured?
+### How is Stepik structured?
 Stepik courses are broken up into modules. Each module has one or more lessons, with each lesson
 containing one or more steps. These “steps” could be one of twenty-one different types, including
 math problems, text lessons, or videos; however, each step in Stepik as of 1/14/2020 is a “coding
@@ -36,7 +36,7 @@ map to a sub-topic: within the Trees module, there are lessons for n-ary trees, 
 binary search trees. Each lesson contains coding challenge steps meant to test students’
 understanding of the material.
 
-#### Adding a new module with lessons to Stepik
+### Adding a new module with lessons to Stepik
 1. Go to Stepik.
 2. Click the course you want to edit.
 3. Click “Edit course syllabus”.
@@ -51,7 +51,7 @@ By default, a newly-created lesson will have one step in it. This step will be a
 won’t have any useful info. Once you have created coding challenge steps, feel free to delete this
 automatically-created Text step.
 
-#### Adding a new step (coding problem) to a lesson
+### Adding a new step (coding problem) to a lesson
 1. Within Stepik, scroll down to the lesson you want to add a problem to and click the lesson’s name.
 2. Now press “Edit”.
 3. Create a new step with type “code challenge”.
@@ -60,7 +60,7 @@ automatically-created Text step.
 6. Now edit the step to match the problem you wish to add.
 
 
-#### How does Stepik test student code?
+### How does Stepik test student code?
 When a student types code into the Stepik frontend and hits “Submit”, their code is pasted into the
 C++ source file outlined in "Languages & Templates. This file contains a main method. This source
 file is compiled on Stepik’s remote server. Immediately after this, the stepik backend written in
@@ -74,7 +74,7 @@ there’s no need for a perfect match. If the student output does not match the 
 fail the test case; the input will be shown to them to aid in debugging (the complexity of the
 stepik_backend.py file comes from orchestrating this display).
 
-#### Cool. How do I set up this backend?
+### Cool. How do I set up this backend?
 1. Go to the desired step within the stepik course.
 2. Go to “Edit” within the lesson.
 3. Add desired text, images, code samples, etc. to problem description.
