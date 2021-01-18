@@ -19,7 +19,7 @@ GitHub CLI. Downloading the files as a .zip archive is also okay.
 
 Inside this git repository is the python backend code and a sample .step file.
 The .step file has the backend code as one of its fields, so you shouldn’t need to directly edit the
-backend file. Uploading the .step file to stepik and editing there should be sufficient.
+backend file. Uploading the .step file to Stepik and editing there should be sufficient.
 
 ### How is Stepik structured?
 Stepik courses are broken up into modules. Each module has one or more lessons, with each lesson
@@ -29,7 +29,7 @@ challenge,” where students can type in code to solve a problem and then submit
 grading.
 
 For COP3530, each module addresses a broad topic from the class, like heaps or trees. The lessons
-map to a sub-topic: within the Trees module, there are lessons for n-ary trees, binary trees, an
+map to a sub-topic: within the Trees module, there are lessons for n-ary trees, binary trees, and
 binary search trees. Each lesson contains coding challenge steps meant to test students’
 understanding of the material.
 
@@ -59,8 +59,8 @@ automatically-created Text step.
 
 ### How does Stepik test student code?
 When a student types code into the Stepik frontend and hits “Submit”, their code is pasted into the
-C++ source file outlined in "Languages & Templates. This file contains a main method. This source
-file is compiled on Stepik’s remote server. Immediately after this, the stepik backend written in
+C++ source file outlined in "Languages & Templates". This file contains a main method. This source
+file is compiled on Stepik’s remote server. Immediately after this, the Stepik backend written in
 Python will use the `generate` function to produce a series of test cases. These test cases will be
 combined with any test cases in the frontend (with the frontend test case(s) first and the backend 
 test case(s) second) and then fed, one-by-one, as (standard) input to the executable. The executable
@@ -77,7 +77,7 @@ stepik_backend.py file comes from orchestrating this display).
 3. Add desired text, images, code samples, etc. to problem description.
 4. At the bottom there will be 3 tabs: “Test Cases”, “Languages and Templates”, and “Advanced”.
 5. Create desired test case inputs and outputs on your own, outside of stepik. You can test them out
-   in stepik if you would like as well.
+   in Stepik if you would like as well.
 6. Click “Test Cases”. Place the first test case input and output here. Do not add others here, only
    have the first [<sup id="footnote-id">1</sup>](#fn1). 
 7. Click “Languages and Templates”.
